@@ -1,0 +1,44 @@
+import = [
+    "~/.config/alacritty/themes/dracula.toml"
+]
+
+live_config_reload = true
+
+[shell]
+program = "/bin/zsh"
+args = ["-l"]
+
+[selection]
+save_to_clipboard = true
+
+[cursor]
+style = "Beam"
+
+[font]
+size = 14.0
+
+[font.normal]
+family = "SFMono Nerd Font"
+style = "Regular"
+
+[font.bold]
+family = "SFMono Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "SFMono Nerd Font"
+style = "Regular Italic"
+
+[font.bold_italic]
+family = "SFMono Nerd Font"
+style = "Bold Italic"
+
+[window]
+decorations = "buttonless"
+dynamic_padding = false
+opacity = 0.90
+dynamic_title = true
+
+[window.padding]
+x = 25
+y = 20
