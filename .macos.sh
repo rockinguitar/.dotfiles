@@ -100,6 +100,9 @@ chflags nohidden ~/Library
 # Startup Chime / StartupMute=%01 to mute
 sudo nvram StartupMute=%01
 
+# Tab click activationz
+defaults write com.apple.AppleMultitouchTrackpad Clicking -bool true
+
 # Enable Firewall
 /usr/libexec/ApplicationFirewall/socketfilterfw --setglobalstate on
 /usr/libexec/ApplicationFirewall/socketfilterfw --setstealthmode on
