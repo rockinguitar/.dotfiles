@@ -4,17 +4,6 @@
 
 brew bundle
 
-# Enable special handling to prevent expansion to a
-# literal '/tmp/backup/*' when no matches are found. 
-shopt -s nullglob
+# Stow with verbose add -n to just simulate
 
-FOLDERS=(*)
-for folder in "${FOLDERS[@]}"; do
-    [[ -d "$folder" ]] && stow "$folder"
-done
-
-# Unset shell option after use, if desired. Nullglob
-# is unset by default.
-shopt -u nullglob
-
-
+stow alacritty zsh -v
