@@ -20,7 +20,7 @@ defaults write NSGlobalDomain AppleTemperatureUnit -string "Celsius"
 
 # Set menu bar clock format
 defaults write com.apple.menuextra.clock IsAnalog -bool false
-defaults write com.apple.menuextra.clock DateFormat -string "EEE MMM d h:mm a"
+defaults write com.apple.menuextra.clock DateFormat -string "EEE MMM d HH:mm a"
 
 # Show battery percentage
 defaults -currentHost write com.apple.controlcenter BatteryShowPercentage -bool true
