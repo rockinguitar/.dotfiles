@@ -1,10 +1,14 @@
 tap "epk/epk"
 tap "homebrew/bundle"
+brew "fzf"
 brew "git"
 brew "lsd"
+brew "mas"
 brew "starship"
 brew "stow"
 brew "wget"
+brew "zoxide"
+brew "zsh-autocomplete"
 cask "adobe-creative-cloud"
 cask "alacritty"
 cask "bitwarden"
@@ -14,6 +18,7 @@ cask "firefox"
 cask "font-sf-mono-nerd-font"
 cask "google-chrome"
 cask "iina"
+cask "languagetool"
 cask "microsoft-auto-update"
 cask "microsoft-edge"
 cask "microsoft-office"
@@ -23,3 +28,9 @@ cask "raycast"
 cask "spotify"
 cask "visual-studio-code"
 cask "zoom"
+mas "GarageBand", id: 682658836
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Microsoft To Do", id: 1274495053
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
