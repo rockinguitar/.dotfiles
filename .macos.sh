@@ -100,6 +100,9 @@ chflags nohidden ~/Library
 # Startup Chime / StartupMute=%01 to mute
 sudo nvram StartupMute=%01
 
+# Prevent startup when the lid is open
+sudo nvram AutoBoot=%00
+
 # Enable Firewall
 /usr/libexec/ApplicationFirewall/socketfilterfw --setglobalstate on
 /usr/libexec/ApplicationFirewall/socketfilterfw --setstealthmode on
