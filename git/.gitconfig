@@ -1,5 +1,5 @@
 [include]
-path = ~/OneNote/IT/.gitconfig.local
+path = ~/OneDrive/IT/.gitconfig_private
 
 [core]
 	editor = code --wait
