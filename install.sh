@@ -6,4 +6,4 @@ brew bundle
 
 # Stow with verbose add -n to just simulate
 
-stow alacritty zsh -v
+stow alacritty git zsh -v

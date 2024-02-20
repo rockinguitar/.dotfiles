@@ -1,0 +1,16 @@
+[alias]
+	st = status -sb
+	ll = log --oneline
+	last = log -1 HEAD --stat
+	cm = commit -m
+	rv = remote -v
+	gl = config --global -l
+	p = push
+	se = !git rev-list --all | xargs git grep -F
+	cob = checkout -b
+	f = fetch -p
+	ba = branch -a
+	bD = branch -D
+	dc = diff --cached
+	po = push -u origin HEAD
+	c = checkout

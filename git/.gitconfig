@@ -1,0 +1,11 @@
+[include]
+path = ~/OneNote/IT/.gitconfig.local
+
+[core]
+	editor = code --wait
+
+[init]
+	defaultBranch = main
+
+[include]
+path = ~/.gitconfig_aliases
