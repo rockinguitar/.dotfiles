@@ -8,6 +8,7 @@ brew "git"
 brew "lsd"
 brew "mas"
 brew "pinentry-mac"
+brew "podman"
 brew "starship"
 brew "stow"
 brew "toilet"
@@ -25,6 +26,7 @@ cask "firefox"
 cask "font-sf-mono-nerd-font"
 cask "google-chrome"
 cask "iina"
+cask "intellij-idea-ce"
 cask "microsoft-auto-update"
 cask "microsoft-edge"
 cask "microsoft-office"
@@ -34,6 +36,7 @@ cask "protonvpn"
 cask "raycast"
 cask "spotify"
 cask "visual-studio-code"
+cask "whatsapp"
 cask "zoom"
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
@@ -41,3 +44,4 @@ mas "Keynote", id: 409183694
 mas "Microsoft To Do", id: 1274495053
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+vscode "redhat.vscode-yaml"
