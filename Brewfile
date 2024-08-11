@@ -5,6 +5,8 @@ brew "asciiquarium"
 brew "cmatrix"
 brew "fzf"
 brew "git"
+brew "go"
+brew "golang-migrate"
 brew "lsd"
 brew "mas"
 brew "pinentry-mac"
@@ -44,4 +46,6 @@ mas "Keynote", id: 409183694
 mas "Microsoft To Do", id: 1274495053
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+vscode "golang.go"
+vscode "ms-vscode.powershell"
 vscode "redhat.vscode-yaml"
