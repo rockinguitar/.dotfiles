@@ -3,6 +3,7 @@ path = ~/OneDrive/IT/.gitconfig_private
 
 [core]
 	editor = code --wait
+	autocrlf = input
 
 [init]
 	defaultBranch = main
