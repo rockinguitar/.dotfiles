@@ -1,10 +1,5 @@
-import = [
-    "~/.config/alacritty/themes/dracula.toml"
-]
 
-live_config_reload = true
-
-[shell]
+[terminal.shell]
 program = "/bin/zsh"
 args = ["-l"]
 
@@ -42,3 +37,12 @@ dynamic_title = true
 [window.padding]
 x = 25
 y = 20
+
+[general]
+
+live_config_reload = true
+import = [
+    "~/.config/alacritty/themes/catpuccin-mocha.toml"
+]
+
+[terminal]
