@@ -1,6 +1,8 @@
 #!/bin/bash
-  
 # Script for backing up the cerebrum-vault to github
+
+# Stop script on error
+set -e
   
 CEREBRUMPATH=~/Documents/Cerebrum-Vault
 GITHUBCEREBPATH=~/Repos/cerebrum-vault/

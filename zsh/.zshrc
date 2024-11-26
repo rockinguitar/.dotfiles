@@ -1,5 +1,5 @@
 eval "$(starship init zsh)"
-eval "$(zoxide init zsh)"
+eval "$(zoxide init --cmd cd zsh)"
 PATH=~/.dotfiles/utilities:${PATH}
 export PATH
 source $HOME/.dotfiles/zsh/.aliases

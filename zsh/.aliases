@@ -5,5 +5,5 @@ alias la='ls -a'
 alias lla='ls -la'
 alias lt='ls --tree'% 
 
-# Up a level of the tree
-alias zz='z -'
+# Kubectl
+alias k='kubectl'
